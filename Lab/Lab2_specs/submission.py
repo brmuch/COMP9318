@@ -29,7 +29,7 @@ def single_row_optimized(df, pre_dims, cols_name_ls, df_out):                   
                 temp[len(temp) - len(binary) + i - 1] = "ALL"
         concat.extend(temp)
         df_out.loc[len(df_out)] = concat
-    #print("调用了single_row")
+    
 '''
 df: given df
 pre_dims: a list of nums removed from df previous
